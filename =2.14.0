@@ -1,0 +1,57 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: datasets in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (2.11.0)
+Collecting datasets
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/74/4d/63b033169534f0742b7fe13957118cae08c83b04bfde46511f397872e2e7/datasets-2.17.0-py3-none-any.whl (536 kB)
+Requirement already satisfied: filelock in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (3.13.1)
+Requirement already satisfied: numpy>=1.17 in /home/zzy/.local/lib/python3.10/site-packages (from datasets) (1.26.4)
+Requirement already satisfied: pyarrow>=12.0.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (12.0.0)
+Collecting pyarrow-hotfix (from datasets)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e4/f4/9ec2222f5f5f8ea04f66f184caafd991a39c8782e31f5b0266f101cb68ca/pyarrow_hotfix-0.6-py3-none-any.whl (7.9 kB)
+Requirement already satisfied: dill<0.3.9,>=0.3.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (0.3.4)
+Requirement already satisfied: pandas in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (2.0.0)
+Requirement already satisfied: requests>=2.19.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (2.31.0)
+Requirement already satisfied: tqdm>=4.62.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (4.66.2)
+Requirement already satisfied: xxhash in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (3.4.1)
+Requirement already satisfied: multiprocess in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (0.70.12)
+Requirement already satisfied: fsspec<=2023.10.0,>=2023.1.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from fsspec[http]<=2023.10.0,>=2023.1.0->datasets) (2023.3.0)
+Requirement already satisfied: aiohttp in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (3.9.3)
+Collecting huggingface-hub>=0.19.4 (from datasets)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/28/03/7d3c7153113ec59cfb31e3b8ee773f5f420a0dd7d26d40442542b96675c3/huggingface_hub-0.20.3-py3-none-any.whl (330 kB)
+Requirement already satisfied: packaging in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from datasets) (6.0.1)
+Requirement already satisfied: aiosignal>=1.1.2 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (1.3.1)
+Requirement already satisfied: attrs>=17.3.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (23.2.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (1.4.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (6.0.5)
+Requirement already satisfied: yarl<2.0,>=1.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (1.9.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from aiohttp->datasets) (4.0.3)
+INFO: pip is looking at multiple versions of huggingface-hub to determine which version is compatible with other requirements. This could take a while.
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3d/0a/aed3253a9ce63d9c90829b1d36bc44ad966499ff4f5827309099c8c9184b/huggingface_hub-0.20.2-py3-none-any.whl (330 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/0a/02ac0ae1047d97769003ff4fb8e6717024f3f174a5d13257415aa09e13d9/huggingface_hub-0.20.1-py3-none-any.whl (330 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/03/46f112e2e415926bc7bdac2f5366572de0c28cb88051537b25a586b5d881/huggingface_hub-0.20.0-py3-none-any.whl (329 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/09/1945ca6ba3ad8ad6e2872ba682ce8d68c5e63c8e55458ed8ab4885709f1d/huggingface_hub-0.19.4-py3-none-any.whl (311 kB)
+Collecting fsspec[http]<=2023.10.0,>=2023.1.0 (from datasets)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/f6/3eccfb530aac90ad1301c582da228e4763f19e719ac8200752a4841b0b2d/fsspec-2023.10.0-py3-none-any.whl (166 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from huggingface-hub>=0.19.4->datasets) (4.9.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from requests>=2.19.0->datasets) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from requests>=2.19.0->datasets) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from requests>=2.19.0->datasets) (2.2.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from requests>=2.19.0->datasets) (2024.2.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from pandas->datasets) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from pandas->datasets) (2024.1)
+Requirement already satisfied: tzdata>=2022.1 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from pandas->datasets) (2024.1)
+Requirement already satisfied: six>=1.5 in /home/zzy/miniconda3/envs/mixture/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas->datasets) (1.16.0)
+Installing collected packages: pyarrow-hotfix, fsspec, huggingface-hub, datasets
+  Attempting uninstall: fsspec
+    Found existing installation: fsspec 2023.3.0
+    Uninstalling fsspec-2023.3.0:
+      Successfully uninstalled fsspec-2023.3.0
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.17.3
+    Uninstalling huggingface-hub-0.17.3:
+      Successfully uninstalled huggingface-hub-0.17.3
+  Attempting uninstall: datasets
+    Found existing installation: datasets 2.11.0
+    Uninstalling datasets-2.11.0:
+      Successfully uninstalled datasets-2.11.0
+Successfully installed datasets-2.17.0 fsspec-2023.10.0 huggingface-hub-0.20.3 pyarrow-hotfix-0.6

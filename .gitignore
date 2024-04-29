@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+
+.git_tmp
+.git_temp
+
+testdata
+input/*.jsonl
+output/evals/*
+output/sft_data/*
+output/lora_model/*
